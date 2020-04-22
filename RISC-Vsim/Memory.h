@@ -1,8 +1,3 @@
 #pragma once
-class Memory
-{
-public:
-	Memory();
-	~Memory();
-};
-
+#include <memory>
+extern std::unique_ptr<unsigned char[]> memory;

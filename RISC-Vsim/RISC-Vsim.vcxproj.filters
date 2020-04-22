@@ -30,10 +30,7 @@
     <ClInclude Include="CPU.h">
       <Filter>ヘッダー ファイル\CPU</Filter>
     </ClInclude>
-    <ClInclude Include="ALU.h">
-      <Filter>ヘッダー ファイル\CPU</Filter>
-    </ClInclude>
-    <ClInclude Include="Register.h">
+    <ClInclude Include="opcode.h">
       <Filter>ヘッダー ファイル\CPU</Filter>
     </ClInclude>
   </ItemGroup>
@@ -45,12 +42,6 @@
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="CPU.cpp">
-      <Filter>ソース ファイル\CPU</Filter>
-    </ClCompile>
-    <ClCompile Include="ALU.cpp">
-      <Filter>ソース ファイル\CPU</Filter>
-    </ClCompile>
-    <ClCompile Include="Register.cpp">
       <Filter>ソース ファイル\CPU</Filter>
     </ClCompile>
   </ItemGroup>

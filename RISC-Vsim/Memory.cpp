@@ -1,12 +1,2 @@
 #include "Memory.h"
-
-
-
-Memory::Memory()
-{
-}
-
-
-Memory::~Memory()
-{
-}
+std::unique_ptr<unsigned char[]> memory;
